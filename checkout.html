@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="/CSS/styles.css">
+    </head>
+
+    <body>
+        <ul>
+            <li><a href=index.html>Home</a></li>
+            <li><a href ="products.html">Shoes</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li style="float: right;"><a href="contactMe.html">Contact Me</a></li>
+        </ul>
+
+        <h1>Checkout 🛒</h1>        
+        <table>
+            <form action="confirmation.html">
+                <td><h3>Billing Details</h3></td>
+                <tr>
+                    <td><label for="fname">First Name:</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="lname">Last Name:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email"></td>
+                    <td><label for="phone">Phone Number:</label></td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td><label>Street Address:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City:</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="state">State:</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="zip">Zip Code:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><h3>Payment Info</h3></td>
+                </tr>
+                    <tr>
+                        <td><label for="card">Card Type:</label></td>
+                        <td style="display: inline-block;"><input type="radio" name="visa">Visa</td>
+                        <td style="display: inline-block;"><input type="radio" name="master">Mastercard</td>
+                        <td style="display: inline-block;"><input type="radio" name="amex">American Express</td>
+                        <td style="display: inline-block;"><input type="radio" name="discover">Discover</td>
+                    </tr>       
+                    <tr>
+                        <td><label for="cnumber">Card Number:</label></td>
+                        <td style="display: inline-block;"><input type="text"></td>
+                        <td style="display: inline-block;"><label for="exp">Expiration Date:</label></td>
+                        <td style="display: inline-block;"><input type="text"></td>
+                        <td style="display: inline-block;"><label for="cvv">Security Code:</label></td>
+                        <td><input type="text"></td>
+                    </tr>   
+                    <tr></tr> 
+                    <tr>
+                        <td><input type="submit" class="pay"></td>
+                        </tr>                
+            </form>            
+        </table>
+    </body>
