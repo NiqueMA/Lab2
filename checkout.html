@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="/Lab2/CSS/styles.css">
+    </head>
+
+    <body>
+        <ul>
+            <li><a href=index.html>Home</a></li>
+            <li><a href ="products.html">Shoes</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li style="float: right;"><a href="contactMe.html">Contact Me</a></li>
+        </ul>
+
+        <h1>Checkout 🛒</h1>        
+        <form action="confirmation.html">    
+            <h3>Billing Details</h3>
+    <table>
+                
+                    
+                    <tr>
+                        <td><label for="fname">First Name:</label></td>
+                        <td><input type="text" id="fname"></td>
+                        <td><label for="lname">Last Name:</label></td>
+                        <td><input type="text" id="lname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Address:</label></td>
+                        <td><input type="email" id="email"></td>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td><input type="tel" id="phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="saddress">Street Address:</label></td>
+                        <td><input type="text" id="saddress"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City:</label></td>
+                        <td><input type="text" id="city"></td>
+                        <td><label for="state">State:</label></td>
+                        <td><input type="text" id="state"></td>
+                        <td><label for="zip">Zip Code:</label></td>
+                        <td><input type="text" id="zip"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>Payment Info</h3></td>
+                    </tr>
+                        <tr>
+                            <td><label for="card">Card Type:</label></td>
+                            <td style="display: inline-block;"><input type="radio" name="visa" id="vcard">Visa</td>
+                            <td style="display: inline-block;"><input type="radio" name="master" id="mcard">Mastercard</td>
+                            <td style="display: inline-block;"><input type="radio" name="amex" id="acard">American Express</td>
+                            <td style="display: inline-block;"><input type="radio" name="discover" id="dcard">Discover</td>
+                        </tr>       
+                        <tr>
+                            <td><label for="cnumber">Card Number:</label></td>
+                            <td style="display: inline-block;"><input type="text" id="cnumber"></td>
+                            <td style="display: inline-block;"><label for="exp">Expiration Date:</label></td>
+                            <td style="display: inline-block;"><input type="text" id="exp"></td>
+                            <td style="display: inline-block;"><label for="cvv">Security Code:</label></td>
+                            <td><input type="text" id="cvv"></td>
+                        </tr>   
+                        
+                        <tr>
+                            <td><input type="submit" class="pay"></td>
+                            </tr> 
+    </table>               
+                </form>            
+    </body>
