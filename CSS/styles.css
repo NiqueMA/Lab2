@@ -2,6 +2,40 @@ body
 {
     background-color: #6155a6;
 }
+.button {
+  background-color: #ffabe1;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+}
+.center
+{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+  .checkout
+  {
+    border: solid;
+    border-color: gray;
+    background-color: #ffe6e6;
+    display: inline-block;
+  }
+.confirm
+{
+  text-align: center;
+  font-size: 25px;
+}
+.ctc
+{
+  width: 40%;
+  color: #ffe6e6;
+  margin: 0;
+}
 h1
 {
     font-size: 750%;
@@ -21,28 +55,28 @@ h1
     font-size: 200%;
        
 }
-.center
-{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffabe1;
+  img
+  {
+    width: 300px;
+    height: 300px;
   }
-  
-  li {
+.info
+{
+  display: inline-block;
+}
+input
+{
+  display: inline-block;
+}
+label
+{
+  text-align: left;
+}
+ li {
     float: left;
     font-size: 300%;
     font-weight: bold;
   }
-  
   li a {
     display: block;
     color: #ffe6e6;
@@ -55,60 +89,40 @@ ul {
     background-color: #ad6c80;
   }
 
-  img
-  {
-    width: 300px;
-    height: 300px;
-  }
-   
-  .title
-  {
-    font-size: 25px;
-    font-weight: bold;
-    position: relative;
-    bottom: 100px;    
-  }
-  .checkout
-  {
-    border: solid;
-    border-color: gray;
-    background-color: #ffe6e6;
-    display: inline-block;
-  }
-.pic
-{
-  padding-left: 25px;
-  line-height: 25px;
-}
-label
-{
-  text-align: left;
-}
-input
-{
-  display: inline-block;
-}
-.info
-{
-  display: inline-block;
-}
-.button {
-  background-color: #ffabe1;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 40px;
-}
 .pay
 {
   border: solid;
   font-size: 25px;
   color: black;
 }
-.confirm
+.pic
 {
-  text-align: center;
-  font-size: 25px;
+  padding-left: 25px;
+  line-height: 25px;
 }
+
+.shoes
+{
+  border-spacing: 5;
+}
+.title
+  {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 100px;    
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffabe1;
+  }
+  
+ 
+  
+
+
+
+   
