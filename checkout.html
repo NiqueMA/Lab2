@@ -48,18 +48,24 @@
                         <td><h3>Payment Info</h3></td>
                     </tr>
                         <tr>
-                            <td><label for="card">Card Type:</label></td>
-                            <td style="display: inline-block;"><input type="radio" name="card" id="visa">Visa</td>
-                            <td style="display: inline-block;"><input type="radio" name="card" id="master">Mastercard</td>
-                            <td style="display: inline-block;"><input type="radio" name="card" id="amex">American Express</td>
-                            <td style="display: inline-block;"><input type="radio" name="card" id="discover">Discover</td>
+                            <fieldset>
+                               <td> <legend>Card Type:</legend></td>
+                                <td class="inline"><label for="visa">Visa</label></td>
+                                <td class="inline"><input type="radio" id="visa"></td>
+                                <td class="inline"><label for="master">Mastercard</label></td>
+                                <td class="inline"><input type="radio" id="master"></td>
+                                <td class="inline"><label for="amex">American Express</label></td>
+                                <td class="inline"><input type="radio" id="amex"></td>
+                                <td class="inline"><label for="discov">Discover</label></td>
+                                <td class="inline"><input type="radio" id="discov"></td>
+                            </fieldset>
                         </tr>       
                         <tr>
                             <td><label for="cnumber">Card Number:</label></td>
-                            <td style="display: inline-block;"><input type="text" id="cnumber"></td>
-                            <td style="display: inline-block;"><label for="exp">Expiration Date:</label></td>
-                            <td style="display: inline-block;"><input type="text" id="exp"></td>
-                            <td style="display: inline-block;"><label for="cvv">Security Code:</label></td>
+                            <td class="inline"><input type="text" id="cnumber"></td>
+                            <td class="inline"><label for="exp">Expiration Date:</label></td>
+                            <td class="inline"><input type="text" id="exp"></td>
+                            <td class="inline"><label for="cvv">Security Code:</label></td>
                             <td><input type="text" id="cvv"></td>
                         </tr>   
                         
