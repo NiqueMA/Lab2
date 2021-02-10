@@ -36,6 +36,10 @@ body
   color: #ffe6e6;
   margin: 0;
 }
+fieldset
+{
+    border-type: none;
+}
 h1
 {
     font-size: 750%;
