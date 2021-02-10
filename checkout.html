@@ -17,25 +17,33 @@
         <h1>Checkout 🛒</h1>        
         <form action="confirmation.html">    
             <h3>Billing Details</h3>
-    <table>
-                
-                    
+   
+
+				<table>
                     <tr>
                         <td><label for="fname">First Name:</label></td>
                         <td><input type="text" id="fname"></td>
                         <td><label for="lname">Last Name:</label></td>
                         <td><input type="text" id="lname"></td>
                     </tr>
+				</table>
+				
+				<table>
                     <tr>
                         <td><label for="email">Email Address:</label></td>
                         <td><input type="email" id="email"></td>
                         <td><label for="phone">Phone Number:</label></td>
                         <td><input type="tel" id="phone"></td>
                     </tr>
+				</table>	
+				
+				<table>
                     <tr>
                         <td><label for="saddress">Street Address:</label></td>
                         <td><input type="text" id="saddress"></td>
                     </tr>
+				</table>
+				<table>
                     <tr>
                         <td><label for="city">City:</label></td>
                         <td><input type="text" id="city"></td>
@@ -44,34 +52,44 @@
                         <td><label for="zip">Zip Code:</label></td>
                         <td><input type="text" id="zip"></td>
                     </tr>
+				</table>	
+				<table>
                     <tr>
                         <td><h3>Payment Info</h3></td>
                     </tr>
-                        <tr>
-                            <fieldset>
-                               <td> <legend>Card Type:</legend></td>
-                                <td class="inline"><label for="visa">Visa</label></td>
-                                <td class="inline"><input type="radio" id="visa"></td>
-                                <td class="inline"><label for="master">Mastercard</label></td>
-                                <td class="inline"><input type="radio" id="master"></td>
-                                <td class="inline"><label for="amex">American Express</label></td>
-                                <td class="inline"><input type="radio" id="amex"></td>
-                                <td class="inline"><label for="discov">Discover</label></td>
-                                <td class="inline"><input type="radio" id="discov"></td>
-                            </fieldset>
-                        </tr>       
+				</table>
+
+				
+  <fieldset>
+                <table>
+                    <tr>
+                        <td><legend>Card Type:</legend></td>
+                        <td><label for="visa">Visa</label></td>
+                        <td><input type="radio" id="visa" name="card"></td>
+                        <td><label for="master">Mastercard</label></td>
+                        <td><input type="radio" id="master" name="card"></td>
+                         <td><label for="amex">American Express</label></td>
+                        <td><input type="radio" id="amex" name="card"></td>
+                        <td><label for="discov">Discover</label></td>
+                        <td><input type="radio" id="discov" name="card"></td>
+                </tr>
+    </fieldset>
+                </table>
+				<table>		
                         <tr>
                             <td><label for="cnumber">Card Number:</label></td>
-                            <td class="inline"><input type="text" id="cnumber"></td>
-                            <td class="inline"><label for="exp">Expiration Date:</label></td>
-                            <td class="inline"><input type="text" id="exp"></td>
-                            <td class="inline"><label for="cvv">Security Code:</label></td>
+                            <td style="display: inline-block;"><input type="text" id="cnumber"></td>
+                            <td style="display: inline-block;"><label for="exp">Expiration Date:</label></td>
+                            <td style="display: inline-block;"><input type="text" id="exp"></td>
+                            <td style="display: inline-block;"><label for="cvv">Security Code:</label></td>
                             <td><input type="text" id="cvv"></td>
                         </tr>   
-                        
+				</table>
+				<table>
                         <tr>
                             <td><input type="submit" class="pay"></td>
-                            </tr> 
-    </table>               
+                        </tr> 
+                </table> 
                 </form>            
-    </body>
+    </body> 
+    </html>
