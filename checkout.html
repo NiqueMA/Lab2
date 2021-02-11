@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Shopping Cart</title>
-        <link rel="stylesheet" href="/Lab2/CSS/styles.css">
+        <link rel="stylesheet" href="/CSS/styles.css">
     </head>
 
     <body>
@@ -26,24 +26,19 @@
                         <td><label for="lname">Last Name:</label></td>
                         <td><input type="text" id="lname"></td>
                     </tr>
-				</table>
 				
-				<table>
                     <tr>
                         <td><label for="email">Email Address:</label></td>
                         <td><input type="email" id="email"></td>
                         <td><label for="phone">Phone Number:</label></td>
                         <td><input type="tel" id="phone"></td>
                     </tr>
-				</table>	
 				
-				<table>
                     <tr>
                         <td><label for="saddress">Street Address:</label></td>
-                        <td><input type="text" id="saddress"></td>
+                        <td colspan="2"><input style="width: 161%;" type="text" id="saddress"></td>
                     </tr>
-				</table>
-				<table>
+				
                     <tr>
                         <td><label for="city">City:</label></td>
                         <td><input type="text" id="city"></td>
@@ -61,10 +56,10 @@
 
 				
   <fieldset>
-<legend>Card Type:</legend>
+
                 <table>
                     <tr>
-                        
+                        <td><strong>Card Type:</strong></td>
                         <td><label for="visa">Visa</label></td>
                         <td><input type="radio" id="visa" name="card"></td>
                         <td><label for="master">Mastercard</label></td>
